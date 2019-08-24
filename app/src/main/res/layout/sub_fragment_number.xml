@@ -6,10 +6,12 @@
     android:layout_height="match_parent">
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/citizenPhone"
         android:layout_width="260dp"
         android:layout_height="wrap_content"
         android:fontFamily="@font/quicksand_medium"
+        android:hint="with ISD code"
+        android:inputType="phone"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="28dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -40,17 +42,19 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:layout_constraintTop_toBottomOf="@+id/citizenPhone"
         app:layout_constraintVertical_bias="0.6">
 
 
+
+
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@+id/appCompatImageView2"
+            android:id="@+id/citizen_continue"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_redbutton" />
-
         <TextView
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -58,8 +62,7 @@
             android:lineSpacingExtra="1.7sp"
             android:textColor="@color/colorPrimary"
             android:textSize="20sp"
-            tools:text="continue" />
-
+            android:text="continue" />
     </FrameLayout>
 
     <TextView
@@ -70,13 +73,14 @@
         android:lineSpacingExtra="1.7sp"
         android:textColor="@color/colorDescriptionText"
         android:textSize="20sp"
+        android:id="@+id/cancel_auth"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/frameLayout2"
         app:layout_constraintVertical_bias="0.213"
-        tools:text="cancel"/>
+        android:text="cancel"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
