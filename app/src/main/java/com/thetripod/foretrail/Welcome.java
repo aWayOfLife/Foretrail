@@ -15,13 +15,16 @@ import com.google.firebase.auth.FirebaseAuth;
 public class Welcome extends AppCompatActivity {
 
 
-    private TextView welcomeLogout;
+    private ImageView welcomeLogout;
+    private TextView nameDisplay;
+
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.fragment_onboarding);
-
-        welcomeLogout=findViewById(R.id.welcome_logout);
+        setContentView(R.layout.fragment_dashboard);
+        nameDisplay=findViewById(R.id.name_dash);
+        nameDisplay.setText(getIntent().getStringExtra("name"));
+        welcomeLogout=findViewById(R.id.fabLogout);
         welcomeLogout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

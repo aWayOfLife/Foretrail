@@ -21,7 +21,7 @@
         android:textColor="#202020"
         android:textSize="24sp"
 
-        tools:text="Samantha Parker 18" />
+        android:text="Samantha Parker 18" />
 
     <TextView
         android:layout_marginTop="5dp"
@@ -32,7 +32,7 @@
         android:textColor="#f24f4f"
         android:textSize="18sp"
 
-        tools:text="missing since last week" />
+        android:text="missing since last week" />
 
     <TextView
         android:layout_marginTop="3dp"
@@ -42,7 +42,7 @@
         android:textColor="#acacac"
         android:textSize="18sp"
 
-        tools:text="last spotted in Grand Central\nin Manhattan" />
+        android:text="last spotted in Grand Central\nin Manhattan" />
 
 
 </LinearLayout>
