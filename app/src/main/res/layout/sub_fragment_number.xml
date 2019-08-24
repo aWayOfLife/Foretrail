@@ -6,7 +6,7 @@
     android:layout_height="match_parent">
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/citizenPhone"
         android:layout_width="260dp"
         android:layout_height="wrap_content"
         android:fontFamily="@font/quicksand_medium"
@@ -17,7 +17,8 @@
         app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.025" />
+        app:layout_constraintVertical_bias="0.025"
+        android:inputType="phone"/>
 
     <TextView
         android:id="@+id/textView"
@@ -40,17 +41,19 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:layout_constraintTop_toBottomOf="@+id/citizenPhone"
         app:layout_constraintVertical_bias="0.6">
 
 
+
+
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@+id/appCompatImageView2"
+            android:id="@+id/citizen_continue"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_redbutton" />
-
         <TextView
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -58,8 +61,7 @@
             android:lineSpacingExtra="1.7sp"
             android:textColor="@color/colorPrimary"
             android:textSize="20sp"
-            tools:text="continue" />
-
+            android:text="continue" />
     </FrameLayout>
 
     <TextView
@@ -76,7 +78,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/frameLayout2"
         app:layout_constraintVertical_bias="0.213"
-        tools:text="cancel"/>
+        android:text="cancel"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
