@@ -1,4 +1,4 @@
-package com.thetripod.foretrail;
+package com.thetripod.foretrail.Dashboard;
 
 import java.util.Date;
 import java.util.List;

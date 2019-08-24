@@ -34,6 +34,7 @@ dependencies {
     implementation 'com.squareup.picasso:picasso:2.71828'
     implementation 'de.hdodenhof:circleimageview:3.0.0'
     implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'com.google.android.material:material:1.0.0'
 
     implementation 'me.gujun.android.taggroup:library:1.4@aar'
     implementation 'com.android.support:multidex:1.0.0'
