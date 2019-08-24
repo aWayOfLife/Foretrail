@@ -36,5 +36,18 @@ dependencies {
     implementation 'androidx.cardview:cardview:1.0.0'
     implementation 'com.google.android.material:material:1.0.0'
 
+    implementation 'me.gujun.android.taggroup:library:1.4@aar'
+    implementation 'com.android.support:multidex:1.0.0'
+
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.squareup.okhttp:okhttp:2.7.5'
+    implementation 'jp.wasabeef:picasso-transformations:2.1.0'
+    // If you want to use the GPU Filters
+    implementation 'jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1'
+    implementation 'com.anton46:collection-picker:1.0.2'
+
+
+
+
 }
 apply plugin: 'com.google.gms.google-services'

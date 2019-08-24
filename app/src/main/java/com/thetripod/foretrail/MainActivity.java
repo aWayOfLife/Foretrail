@@ -32,6 +32,14 @@ public class MainActivity extends AppCompatActivity{
                 startActivity(intent);
             }
         });
+        admin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent=new Intent(MainActivity.this,Admin.class);
+                startActivity(intent);
+            }
+        });
     }
 
 

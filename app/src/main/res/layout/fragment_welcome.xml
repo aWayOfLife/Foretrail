@@ -42,22 +42,21 @@
         app:layout_constraintTop_toTopOf="@+id/textView2"
         app:layout_constraintVertical_bias="1.0" />
 
+
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/quicksand_medium"
         android:lineSpacingExtra="1.7sp"
+        android:text="continue as.."
         android:textColor="#7d7d7d"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/appCompatImageView"
-        app:layout_constraintVertical_bias="0.317"
-        tools:text="continue as.." />
-
+        app:layout_constraintVertical_bias="0.53" />
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/citizen_welcome"
@@ -82,10 +81,12 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
+        android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/quicksand_medium"
         android:lineSpacingExtra="1.7sp"
+        android:text="citizen"
         android:textColor="@color/colorPrimary"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="@+id/citizen_welcome"
@@ -93,8 +94,7 @@
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="@+id/citizen_welcome"
         app:layout_constraintTop_toTopOf="@+id/citizen_welcome"
-        app:layout_constraintVertical_bias="0.461"
-        android:text="citizen" />
+        app:layout_constraintVertical_bias="0.461" />
 
     <TextView
         android:layout_width="wrap_content"

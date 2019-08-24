@@ -42,6 +42,10 @@
             android:name=".Welcome"
             android:label= "welcome">
         </activity>
+        <activity
+            android:name=".Admin"
+            android:label= "admin">
+        </activity>
     </application>
     <dist:module dist:instant="true" />
 </manifest>
