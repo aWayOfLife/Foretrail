@@ -33,7 +33,7 @@ public class VerifyPhone extends AppCompatActivity {
     private ProgressBar progressBar;
     private EditText otpCode;
     private TextView setNumber;
-    
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

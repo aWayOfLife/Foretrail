@@ -37,6 +37,6 @@
         android:layout_height="match_parent"
         android:layout_marginTop="180dp">
 
-        <include layout="@layout/sub_fragment_username" />
+        <include layout="@layout/sub_fragment_username_pass" />
     </FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

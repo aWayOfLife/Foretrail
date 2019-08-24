@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/admin_username"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/quicksand_medium"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="28dp"
+        app:layout_constraintBottom_toTopOf="@+id/PASS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.386" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:lineSpacingExtra="1.7sp"
+        android:text="enter admin username "
+        android:textColor="#202020"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.398"
+        app:layout_constraintStart_toStartOf="parent"
+         />
+
+    <EditText
+        android:id="@+id/password_admin"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/quicksand_medium"
+        android:inputType="textPassword"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="28dp"
+        app:layout_constraintBottom_toTopOf="@+id/frameLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PASS"
+        app:layout_constraintVertical_bias="0.114" />
+
+    <TextView
+        android:id="@+id/PASS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="172dp"
+        android:lineSpacingExtra="1.7sp"
+        android:text="enter admin password "
+        android:textColor="#202020"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.391"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/admin_username"
+        app:layout_constraintVertical_bias="0.6">
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/admin_continue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_blackbutton" />
+
+        <TextView
+            android:id="@+id/admin_continue_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="continue"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp" />
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/quicksand_medium"
+        android:lineSpacingExtra="1.7sp"
+        android:textColor="@color/colorDescriptionText"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout2"
+        app:layout_constraintVertical_bias="0.213"
+        android:text="cancel"
+        android:id="@+id/admin_cancel"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
