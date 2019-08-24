@@ -10,6 +10,8 @@
         android:layout_width="260dp"
         android:layout_height="wrap_content"
         android:fontFamily="@font/quicksand_medium"
+        android:hint="with ISD code"
+        android:inputType="phone"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="28dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -17,8 +19,7 @@
         app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.025"
-        android:inputType="phone"/>
+        app:layout_constraintVertical_bias="0.025" />
 
     <TextView
         android:id="@+id/textView"
@@ -72,6 +73,7 @@
         android:lineSpacingExtra="1.7sp"
         android:textColor="@color/colorDescriptionText"
         android:textSize="20sp"
+        android:id="@+id/cancel_auth"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"

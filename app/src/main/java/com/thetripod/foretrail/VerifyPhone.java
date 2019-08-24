@@ -7,6 +7,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -31,15 +32,22 @@ public class VerifyPhone extends AppCompatActivity {
     private String verificationCode;
     private ProgressBar progressBar;
     private EditText otpCode;
+    private TextView setNumber;
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fragment_citizen_auth_otp);
         signUpButton=(ImageView) findViewById(R.id.citizen_sign_in);
+        setNumber=findViewById(R.id.number);
+
         //progressBar=(ProgressBar)findViewById(R.id.progressBar);
         otpCode=(EditText)findViewById(R.id.citizenOTP);
         mAuth=FirebaseAuth.getInstance();
-        String getPhoneNumber=getIntent().getStringExtra("phonenumber");
+         String getPhoneNumber=getIntent().getStringExtra("phonenumber");
+        setNumber.setText(getPhoneNumber);
+
+
         phoneVerificationCode(getPhoneNumber);
         signUpButton.setOnClickListener(new View.OnClickListener() {
             @Override
