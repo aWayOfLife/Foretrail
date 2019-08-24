@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "487683780219",
+    "firebase_url": "https://foretrail.firebaseio.com",
+    "project_id": "foretrail",
+    "storage_bucket": "foretrail.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:487683780219:android:a00525f729acc032",
+        "android_client_info": {
+          "package_name": "com.thetripod.foretrail"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "487683780219-p1l23f3sve4fcfci0mg2r0c37uqnd5eq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4paXGA9OUJXnWm6Fo2Sb1fhKoA3o1lNE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "487683780219-p1l23f3sve4fcfci0mg2r0c37uqnd5eq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
