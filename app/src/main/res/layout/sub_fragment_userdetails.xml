@@ -31,7 +31,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/citizen_Name"
         android:layout_width="260dp"
         android:layout_height="wrap_content"
         android:fontFamily="@font/quicksand_medium"
@@ -51,12 +51,12 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:layout_constraintTop_toBottomOf="@+id/citizen_Name"
         app:layout_constraintVertical_bias="0.5">
 
 
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@+id/appCompatImageView2"
+            android:id="@+id/citizen_name_continue"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_redbutton" />
@@ -69,7 +69,7 @@
             android:lineSpacingExtra="1.7sp"
             android:textColor="@color/colorPrimary"
             android:textSize="20sp"
-            tools:text="continue" />
+            android:text="continue" />
 
     </FrameLayout>
 

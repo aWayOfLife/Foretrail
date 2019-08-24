@@ -16,7 +16,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/welcome_logout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/quicksand_medium"
@@ -28,7 +28,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/appCompatImageView"
         app:layout_constraintVertical_bias="0.177"
-        tools:text="welcome" />
+        android:text="welcome" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -52,7 +52,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/welcome_logout"
         app:layout_constraintVertical_bias="0.375"
-        tools:text="you are signed in as an \n administrator" />
+        android:text="you are signed in as an \n citizen" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
